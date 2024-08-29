@@ -30,3 +30,45 @@ a{
     text-decoration: none;
     color: #E5E7EB
 }
+
+.part-one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 128px 0px 128px 0px;
+    
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 8px;
+}
+
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.not-hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #1164ff;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    /*not sure if border if the button is clickable or not, the animation no longer plays whene there is no border*/
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.image{
+    height: 150px;
+    background-color: lightgray;
+}
