@@ -59,7 +59,7 @@ a{
 
 button{
     border-radius: 8px;
-    background-color: #1164ff;
+    background-color: #3882f6;
     color: white;
     padding: 8px 16px 8px 16px;
     /*not sure if border if the button is clickable or not, the animation no longer plays whene there is no border*/
@@ -71,4 +71,45 @@ button{
 .image{
     height: 150px;
     background-color: lightgray;
+}
+
+.part-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.part-two .text{
+    font-size: 36px;
+    padding: 32px;
+    font-weight: 900;
+    color:#1F2937;
+    align-self: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.box .border{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.box .text{
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
 }
